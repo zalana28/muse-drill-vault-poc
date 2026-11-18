@@ -27,6 +27,8 @@ cd muse-drill-vault-poc
 forge test -vvv
 ```
 
+Clone fresh (tanpa `--recursive`): jalankan `forge install foundry-rs/forge-std` dulu sebelum `forge test`.
+
 ## Bug → test mapping
 
 | # | Bug (severity) | Where | Test | What the test proves |
